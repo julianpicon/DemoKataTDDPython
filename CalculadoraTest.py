@@ -4,4 +4,7 @@ from Calculadora import Calculadora
 
 class CalculadoraTest(TestCase):
     def test_sumar(self):
-        self.assertEquals(Calculadora().sumar(""), 0, "Cadena vacia")
+        self.assertEqual(Calculadora().sumar(""), 0, "Cadena vacia")
+
+    def test_sumar_unacadena(self):
+        self.assertEqual(Calculadora().sumar("1"), 1, "Un numero")
