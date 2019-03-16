@@ -1,5 +1,5 @@
 __author__ = 'Julian.Picon'
 
-class Calduladora:
-    def sumar(cadena):
-        pass
+class Calculadora:
+    def sumar(self, cadena):
+        return 0
